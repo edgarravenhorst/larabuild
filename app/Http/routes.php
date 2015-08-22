@@ -14,3 +14,13 @@
 $app->get('/', function() use ($app) {
     return $app->welcome();
 });
+
+$app->get("/users", function() {
+    return \App\User::all();
+});
+
+$app->get("/components", function() {
+    return \App\Component::all();
+});
+
+$app->get("/post/{id}", "PostController@get_single");
