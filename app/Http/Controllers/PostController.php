@@ -4,8 +4,6 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\View;
 use App\Post;
 
-View::addNamespace('Theme', base_path() . '/themes/rehab/views');
-View::addLocation(base_path() . '/themes/rehab/views/');
 
 class PostController extends Controller
 {

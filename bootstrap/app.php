@@ -95,10 +95,15 @@ $app->group(['namespace' => 'App\Http\Controllers'], function ($app) {
 	require __DIR__.'/../app/Http/routes.php';
 });
 
-$app->group(['namespace' => 'Themes\rehab\Controllers'], function ($app) {
-    require __DIR__.'/../themes/rehab/routes.php';
+$themeurl = str_replace(" ", "", "Themes\ " . env('THEME') . "\Controllers");
+
+$app->group(['namespace' => $themeurl], function ($app) {
+    require __DIR__.'/../themes/' . env('THEME') . '/routes.php';
 });
 
+use Illuminate\Support\Facades\View;
+View::addNamespace('Theme', base_path() . '/themes/' . env('THEME') . '/views');
+View::addLocation(base_path() . '/themes/' . env('THEME') . '/views/');
 
 
 return $app;
