@@ -1,0 +1,100 @@
+//@import 'fonts';
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+//@import "core/functions";
+//@import "core/basic-setup";
+
+$font1: 'Montserrat', sans-serif;
+$font2: 'Montserrat', sans-serif;
+$font3: 'Montserrat', sans-serif;
+$font4: 'Montserrat', sans-serif;
+$font5: 'Montserrat', sans-serif;
+
+$color3: #45AB89;
+$color2: #AB9346;
+$color1: #51B55E;
+$color4: #779E4F;
+$color5: #B5B051;
+
+$body-color: #efefef;
+$text-color: $color2;
+
+$susy: (
+    global-box-sizing: border-box,
+    use-custom: (rem: true)
+);
+
+.color-1 {color:$color1}
+.color-2 {color:$color2}
+.color-3 {color:$color3}
+.color-4 {color:$color4}
+.color-5 {color:$color5}
+
+.font-1 {font-family:$font1 !important}
+.font-2 {font-family:$font2 !important}
+.font-3 {font-family:$font3 !important}
+.font-4 {font-family:$font4 !important}
+.font-5 {font-family:$font5 !important}
+
+$max-page-width:1200px;
+$screen-size-mobile: 0px;
+$screen-size-tablet: 850px;
+$screen-size-desktop: 1020px;
+$screen-size-bigscreen: 1600px;
+
+html, body {
+    background-color: $body-color;
+    font-family: $font1;
+    font-size: 13px;
+    color: $text-color;
+    //line-height: 180%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.055em;
+    *{
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+        text-decoration:none;
+        color:$color1;
+        &:hover {
+            color:$color2;
+        }
+    }
+
+    hr {
+        margin-top:20px;
+        clear:both;
+        height:1px;
+        border:0;
+        background-color:#fff;
+        background-color:rgba(255,255,255, 0.5);
+    }
+
+    p{
+        a{text-decoration:underline;}
+        a:hover{color:$color1;}
+    }
+
+    @include breakpoint(0px){
+        h1 {font-family:$font1; color: $color1; font-size:45px; font-weight:normal; margin:20px 0; line-height: 100%; letter-spacing: -0.055em}
+        h2 {font-family:$font1; color: $color1; font-size:30px; font-weight:normal; line-height: 100%; }
+        h3 {font-family:$font1; color: $color1; font-size:24px; font-weight:normal; line-height: 100%;}
+        h4 {font-family:$font1; font-size:16px; font-weight:normal; line-height: 110%; }
+        h5 {}
+        h6 {}
+        p  {margin:10px 0 20px 0;}
+    }
+
+    @include breakpoint(1100px){
+        h1 {font-size:65px;}
+        h2 {font-size:38px;}
+        h3 {font-size:28px;}
+        h4 {font-size:18px;}
+        h5 {}
+        h6 {}
+        p  {margin:10px 0 20px 0;}
+    }
+}

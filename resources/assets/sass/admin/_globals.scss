@@ -1,0 +1,132 @@
+
+.pagewrap {
+    max-width: $max-page-width;
+    width:100%;
+    @include pie-clearfix();
+    @include box-sizing();
+    padding: 2% 5%;
+    margin:auto;
+}
+
+form {
+    margin:0;
+    input, textarea, select {
+        border:1px solid #ccc;
+        width:100%;
+        box-sizing: border-box;
+        padding: 10px;
+        height:40px;
+        font-size:14px;
+        @include box-sizing();
+        @include input-placeholder {
+            color: #999;
+        }
+    }
+
+    input[type=checkbox] {
+        width:auto;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    label {
+        margin:0;
+        padding: 5px 0;
+        display: inline-block;
+        clear: both;
+        vertical-align: middle;
+    }
+
+    textarea {
+        height:100px;
+        @include input-placeholder {
+            color: #999;
+        }
+    }
+
+    .error {
+        span {display: block; padding: 5px; color: #ff0000;}
+        input, select, textarea{
+            border-color:#ff0000;
+        }
+    }
+
+
+    @include pie-clearfix();
+}
+
+button, input[type=submit], .btn, .btn-inverse{
+    display: inline-block;
+    background:$color1;
+    padding:9px 18px;
+    color:#fff;
+    outline: 0;
+    cursor: pointer;
+    border:0;
+    font-size:13px;
+    font-weight:bold;
+    font-family: $font1;
+    width:auto;
+
+    &.full-width {
+        width: 100%;
+        text-align: center;
+    }
+
+    &.hover-white{
+        &:hover {
+            background: #fff;
+            color:$color1;
+        }
+    }
+
+    &:hover {
+        background: $color2;
+        color:#fff;
+    }
+}
+
+.btn-inverse, input[type=submit].btn-inverse {
+    background-color:$color2;
+    color:$color1;
+
+    &:hover {
+        background: $color1;
+        color:#fff;
+    }
+
+    &.hover-white{
+        &:hover {
+            background: #fff;
+            color:$color1;
+        }
+    }
+}
+
+
+
+.row {
+    @include container();
+    @include pie-clearfix();
+    @include box-sizing();
+}
+
+@for $i from 2 to 12 {
+    .cols-#{$i} {
+        @include span($i of 12 before);
+        &:first-child {
+            @include first;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    @for $i from 2 to 12 {
+        .cols-#{$i} {
+            @include span($i of 12 before);
+            &:first-child {
+                @include first;
+            }
+        }
+    }
+}

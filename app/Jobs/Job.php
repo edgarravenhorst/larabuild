@@ -1,12 +1,10 @@
-<?php namespace App\Jobs;
+<?php
+
+namespace App\Jobs;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Contracts\Bus\SelfHandling;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
-abstract class Job implements SelfHandling, ShouldQueue
+abstract class Job
 {
     /*
     |--------------------------------------------------------------------------
@@ -19,5 +17,5 @@ abstract class Job implements SelfHandling, ShouldQueue
     |
     */
 
-    use InteractsWithQueue, Queueable, SerializesModels;
+    use Queueable;
 }

@@ -1,0 +1,123 @@
+
+$template-header-height: 72px;
+$template-aside-width: 180px;
+$dynamic-padding: 3.5%;
+$static-padding: 40px;
+
+body#template-admin {
+
+    header#template {
+        position: relative;
+        display: block;
+        background: #fff;
+        height:$template-header-height;
+        overflow: hidden;
+
+        .logo {
+            background: url('../images/logo.png');
+            display: block;
+            width:163px;
+            height:65px;
+            margin: 18px 20px;
+            background-position: 50%;
+            background-size:contain;
+            background-repeat: no-repeat;
+            float:left;
+            font-size: 30px;
+        }
+
+        nav{
+            float:right;
+            margin:12px 20px;
+            ul{ padding:0; list-style: none;}
+            li{
+                a{font-family: $font2; color:$color1;}
+                font-size:18px;
+                margin-left:10px;
+                display: inline-block;
+            }
+
+        }
+        @include pie-clearfix();
+    }
+
+    aside#template {
+        position: absolute;
+        display: block;
+        background: $color1;
+        top:$template-header-height;
+        left:0;
+        bottom:0;
+        width: $template-aside-width;
+        overflow: hidden;
+
+        .user-info {
+            margin:20px 20px;
+            h2, h5{color:#fff; margin:0;}
+            h2{font-size:20px}
+            h5{opacity:0.6;}
+        }
+
+        nav{
+            ul {
+                padding:0;
+                li {
+                    display: block;
+                    font-size: 18px;
+                    font-family: $font2;
+                    text-align: right;
+                }
+            }
+            a{
+                display: block;
+                color:#fff;
+                font-weight: 700;
+                padding:8px 40px;
+                opacity:0.6;
+            }
+            a:hover{
+                opacity: 1;
+            }
+        }
+    }
+
+    section#template-content {
+        @include container;
+        position: absolute;
+        border-top:1px solid #ddd;
+        display: block;
+        top:$template-header-height;
+        left:$template-aside-width;
+        bottom:0;
+        right: 0;
+        overflow: auto;
+        padding:$dynamic-padding/2 $dynamic-padding/2;
+    }
+}
+
+section.panel {
+    margin-top:0.86%;
+    margin-bottom:0.86%;
+    background: #fff;
+    border:1px solid #ddd;
+    padding:$static-padding;
+    box-sizing: border-box;
+    h2{margin:0; margin-bottom:20px;}
+    h3{margin:20px 0; font-size:16px;}
+    .content{@include container;}
+    table.list {
+        width: 100%;
+        border-collapse: collapse;
+        margin:20px 0;
+        th, td {
+            border-bottom: 1px solid #ddd;
+            padding: 2%;
+            text-align: left;
+            img {
+                max-width: 100px;
+                max-height:50px;
+            }
+        }
+        th {padding-bottom:1%}
+    }
+}
