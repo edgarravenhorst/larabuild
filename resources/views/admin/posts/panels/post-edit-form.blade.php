@@ -23,7 +23,7 @@
 
 <span class='cols-1'>
     {!! Form::label('content', $post->type . ' content') !!}
-    {!! Form::textarea('content', $post->content, array("id"=>"tinymce", 'placeholder' => 'Gebruikersnaam'))!!}
+    {!! Form::textarea('content', $post->content, array("id"=>"tinymce", 'placeholder' => 'Gebruikersnaam', 'rows' => '100'))!!}
 </span>
 
 <br />

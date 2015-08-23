@@ -21,8 +21,9 @@
                 margin:auto;
                 border:1px solid #ddd;
                 background:#fff;
-                margin-top:5%;
-                margin-bottom:5%;
+                margin-top:2.5%;
+                margin-bottom:2.5%;
+                padding:40px;
             }
 
             hr{

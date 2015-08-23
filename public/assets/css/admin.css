@@ -1,65 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-/* line 27, ../../../resources/assets/sass/admin/_settings.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Montserrat:400,700);
+/* line 26, ../../../resources/assets/sass/admin/_settings.scss */
 .color-1 {
   color: #51B55E; }
 
-/* line 28, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 27, ../../../resources/assets/sass/admin/_settings.scss */
 .color-2 {
   color: #AB9346; }
 
-/* line 29, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 28, ../../../resources/assets/sass/admin/_settings.scss */
 .color-3 {
   color: #45AB89; }
 
-/* line 30, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 29, ../../../resources/assets/sass/admin/_settings.scss */
 .color-4 {
   color: #779E4F; }
 
-/* line 31, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 30, ../../../resources/assets/sass/admin/_settings.scss */
 .color-5 {
   color: #B5B051; }
 
-/* line 33, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 32, ../../../resources/assets/sass/admin/_settings.scss */
 .font-1 {
   font-family: "Montserrat", sans-serif !important; }
 
-/* line 34, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 33, ../../../resources/assets/sass/admin/_settings.scss */
 .font-2 {
-  font-family: "Montserrat", sans-serif !important; }
+  font-family: "Open Sans", sans-serif !important; }
+
+/* line 34, ../../../resources/assets/sass/admin/_settings.scss */
+.font-3 {
+  font-family: "Open Sans", sans-serif !important; }
 
 /* line 35, ../../../resources/assets/sass/admin/_settings.scss */
-.font-3 {
-  font-family: "Montserrat", sans-serif !important; }
+.font-4 {
+  font-family: "Open Sans", sans-serif !important; }
 
 /* line 36, ../../../resources/assets/sass/admin/_settings.scss */
-.font-4 {
-  font-family: "Montserrat", sans-serif !important; }
-
-/* line 37, ../../../resources/assets/sass/admin/_settings.scss */
 .font-5 {
-  font-family: "Montserrat", sans-serif !important; }
+  font-family: "Open Sans", sans-serif !important; }
 
-/* line 45, ../../../resources/assets/sass/admin/_settings.scss */
+/* line 44, ../../../resources/assets/sass/admin/_settings.scss */
 html, body {
   background-color: #efefef;
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  color: #AB9346;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #222;
   margin: 0;
-  padding: 0;
-  letter-spacing: -0.055em; }
-  /* line 54, ../../../resources/assets/sass/admin/_settings.scss */
+  padding: 0; }
+  /* line 53, ../../../resources/assets/sass/admin/_settings.scss */
   html *, body * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  /* line 59, ../../../resources/assets/sass/admin/_settings.scss */
+  /* line 58, ../../../resources/assets/sass/admin/_settings.scss */
   html a, body a {
     text-decoration: none;
     color: #51B55E; }
-    /* line 62, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 61, ../../../resources/assets/sass/admin/_settings.scss */
     html a:hover, body a:hover {
       color: #AB9346; }
-  /* line 67, ../../../resources/assets/sass/admin/_settings.scss */
+  /* line 66, ../../../resources/assets/sass/admin/_settings.scss */
   html hr, body hr {
     margin-top: 20px;
     clear: both;
@@ -67,12 +66,15 @@ html, body {
     border: 0;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.5); }
-  /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
-  html p a, body p a {
-    text-decoration: underline; }
-  /* line 78, ../../../resources/assets/sass/admin/_settings.scss */
-  html p a:hover, body p a:hover {
-    color: #51B55E; }
+  /* line 75, ../../../resources/assets/sass/admin/_settings.scss */
+  html p, body p {
+    line-height: 160%; }
+    /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
+    html p a, body p a {
+      text-decoration: underline; }
+    /* line 78, ../../../resources/assets/sass/admin/_settings.scss */
+    html p a:hover, body p a:hover {
+      color: #51B55E; }
   @media (min-width: 0px) {
     /* line 82, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
@@ -80,46 +82,54 @@ html, body {
       color: #51B55E;
       font-size: 45px;
       font-weight: normal;
-      margin: 20px 0;
+      margin: 25px 0 15px 0;
       line-height: 100%;
       letter-spacing: -0.055em; }
     /* line 83, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
-      color: #51B55E;
+      color: #AB9346;
       font-size: 30px;
       font-weight: normal;
-      line-height: 100%; }
+      line-height: 100%;
+      letter-spacing: -0.055em; }
     /* line 84, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
       color: #51B55E;
       font-size: 24px;
       font-weight: normal;
-      line-height: 100%; }
+      margin: 20px 0 0 0;
+      line-height: 100%;
+      letter-spacing: -0.055em; }
     /* line 85, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
-      font-family: "Montserrat", sans-serif;
+      font-family: "Open Sans", sans-serif;
+      color: #AB9346;
       font-size: 16px;
-      font-weight: normal;
+      font-weight: 700;
       line-height: 110%; }
     /* line 88, ../../../resources/assets/sass/admin/_settings.scss */
     html p, body p {
-      margin: 10px 0 20px 0; } }
+      margin: 10px 0 20px 0;
+      letter-spacing: -0.022em; }
+    /* line 90, ../../../resources/assets/sass/admin/_settings.scss */
+    html h1:first-child, html h2:first-child, html h3:first-child, body h1:first-child, body h2:first-child, body h3:first-child {
+      margin-top: 0; } }
   @media (min-width: 1100px) {
-    /* line 92, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 97, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
-      font-size: 65px; }
-    /* line 93, ../../../resources/assets/sass/admin/_settings.scss */
+      font-size: 55px; }
+    /* line 98, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
-      font-size: 38px; }
-    /* line 94, ../../../resources/assets/sass/admin/_settings.scss */
+      font-size: 30px; }
+    /* line 99, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
-      font-size: 28px; }
-    /* line 95, ../../../resources/assets/sass/admin/_settings.scss */
+      font-size: 22px; }
+    /* line 100, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
       font-size: 18px; }
-    /* line 98, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 103, ../../../resources/assets/sass/admin/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0; } }
 
@@ -481,7 +491,7 @@ body#template-admin header#template {
       display: inline-block; }
       /* line 34, ../../../resources/assets/sass/admin/_setup.scss */
       body#template-admin header#template nav li a {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
         color: #51B55E; }
   /* line 38, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   body#template-admin header#template:after {
@@ -518,7 +528,7 @@ body#template-admin aside#template {
     body#template-admin aside#template nav ul li {
       display: block;
       font-size: 18px;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Open Sans", sans-serif;
       text-align: right; }
   /* line 71, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin aside#template nav a {

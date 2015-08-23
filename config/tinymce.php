@@ -5,11 +5,15 @@ return [
     'cdn' => '/vendor/js/tinymce/tinymce.min.js',
 
 	'params' => [
+        "content_css" => "/assets/css/editor-style.css",
 		"selector" => "#tinymce",
 		"language" => 'en',
 		"theme" => "modern",
 		"skin" => "lightgray",
+        "height" => '500',
+        "inline_styles" => 'true',
 		"plugins" => [
+            "textcolor hr visualblocks"
 		],/*
 		"plugins" => [
 	         "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",

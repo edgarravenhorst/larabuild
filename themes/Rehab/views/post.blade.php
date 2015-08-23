@@ -1,6 +1,6 @@
 @extends('layout.page')
 
 @section("content")
-<h2>{{ $data->type }}</h2>
+<h1>{{ $data->type }}</h1>
 <p>{{ $data->content }}</p>
 @stop
