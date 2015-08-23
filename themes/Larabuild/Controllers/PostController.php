@@ -7,8 +7,6 @@ use App\Post;
 
 class PostController extends PostBaseController
 {
-
-
     public function get_homepage(){
         $view = view::make("Theme::index");
 
@@ -28,7 +26,7 @@ class PostController extends PostBaseController
     public function get_single($type, $id) {
         $post = Post::find($id);
         if($post->type != $type) die('404 error');
-        $view = view::make("Theme::" . $type);
+        $view = view::make("Theme::page");
         $view->post = $post;
         return $view;
 
