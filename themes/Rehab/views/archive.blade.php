@@ -8,7 +8,7 @@
 
     <h3>{{$post->title}}</h3>
     <p>{!! $post->content !!}</p>
-    <a href="/{{$post->type}}/{{$post->id}}">Bekijk</a>
+    <a href="/{{$post->type}}/{{$post->id}}" class="btn">Bekijk</a>
 <hr>
 
 @endforeach

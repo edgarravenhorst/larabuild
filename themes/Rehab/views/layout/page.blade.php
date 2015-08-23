@@ -8,21 +8,40 @@
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        {!! HTML::style('assets/css/admin.css') !!}
 
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+
+        <style>
+            .pagewrap {
+                max-width:960px;
+                width:100%;
+                margin:auto;
+                border:1px solid #ddd;
+                background:#fff;
+                margin-top:5%;
+                margin-bottom:5%;
+            }
+
+            hr{
+                background:#ddd !important;
+            }
+
+        </style>
+
     </head>
 
     <body>
-        <section style="
-                        max-width:960px;
-                        width:100%;
-                        margin:auto;
-                        ">
+        <header id="main">
+            <section class="pagewrap">
+                <span>{!! link_to_route('admin', ' Inloggen', null, array('class'=> '')) !!}</span>
+            </section>
+        </header>
+        <section class="pagewrap">
 
-        @yield('content')
+            @yield('content')
 
         </section>
         <script src="js/scripts.js"></script>

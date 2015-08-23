@@ -34,7 +34,7 @@
 
     <body >
         <section class="pagewrap" style="">
-
+        {!! link_to_route('admin', ' Inloggen', null, array('class'=> '')) !!}
         @yield('content')
 
         </section>

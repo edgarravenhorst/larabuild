@@ -1,6 +1,6 @@
 @extends('layout.page')
 
 @section("content")
-    <h1>Dit is een Pagina: {{ $data->title }}</h1>
+    <h2>{{ $data->title }}</h2>
     <p>{!! $data->content !!}</p>
 @stop

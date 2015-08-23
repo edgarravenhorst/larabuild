@@ -1,8 +1,8 @@
 <?php
 
-$app->get("/page/{id}", "PageController@get_single");
-$app->get("/video/{id}", "VideoController@get_single");
-//$app->get("/{id}", "PostController@get_post");
+Route::get("/page/{id}", "PageController@get_single");
+Route::get("/video/{id}", "VideoController@get_single");
+//Route::get("/{id}", "PostController@get_post");
 
-$app->get("/", "PostController@get_archive");
-$app->get("/archive/{type}", "PostController@get_archive");
+Route::get("/", "PostController@get_archive");
+Route::get("/archive/{type}", "PostController@get_archive");

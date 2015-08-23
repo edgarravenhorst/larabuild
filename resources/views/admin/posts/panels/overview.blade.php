@@ -32,7 +32,7 @@
         </td>
 
         <td width="55%">
-            {{strip_tags($post->content)}}
+            {{ substr(strip_tags($post->content), 0, 300) }}...
         </td>
 
         <td width="10%" align="right ">

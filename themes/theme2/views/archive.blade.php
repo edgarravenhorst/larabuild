@@ -1,8 +1,8 @@
 @extends('layout.page')
 
 @section("content")
-    <h1>Archief</h1>
-    <p>overzicht</p>
+
+<h1>Archief</h1>
 
     @foreach ($posts as $post)
 
