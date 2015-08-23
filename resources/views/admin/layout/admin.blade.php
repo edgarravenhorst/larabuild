@@ -17,6 +17,8 @@
             {!! link_to_route('admin', 'Larabuild', [], ['class'=>'logo']) !!}
             <nav>
                 <ul>
+
+                    <li>{!! link_to_route('homepage', 'Naar homepage', null, array('class'=> '')) !!}</li>
                     <li>{!! link_to_route('user_logout', 'Uitloggen', null, array('class'=> '')) !!}</li>
                 </ul>
             </nav>

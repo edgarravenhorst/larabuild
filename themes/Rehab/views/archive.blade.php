@@ -1,13 +1,17 @@
 @extends('layout.page')
 
 @section("content")
-    <h1>Archief</h1>
+<h1>Archief</h1>
 <hr>
-    @foreach ($posts as $post)
+@foreach ($posts as $post)
 
-    <h3>{{$post->title}}</h3>
-    {{ substr(strip_tags($post->content), 0, 300) }}...<br /><br />
-    <a href="/{{$post->type}}/{{$post->id}}" class="btn" style="float:right">Bekijk</a>
+@if($post->get_data("image"))
+<img src="{{ $post->get_data('image') }}" width="120" style="float:left; margin:10px"/>
+@endif
+
+<h3><a href="/{{$post->type}}/{{$post->id}}" class="">{{$post->title}}</a></h3>
+{{ substr(strip_tags($post->content), 0, 300) }}...<br /><br />
+<a href="/{{$post->type}}/{{$post->id}}" class="btn" style="float:right">Bekijk</a>
 <hr>
 
 @endforeach

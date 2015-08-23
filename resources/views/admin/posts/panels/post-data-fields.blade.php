@@ -26,10 +26,4 @@
 </span>
 
 @endforeach
-<hr>
-
-<span class='row'>
-    <button class="full-width activatepopup" data-popup="add_post_data">Veld aanmaken</button>
-</span>
-
 @stop

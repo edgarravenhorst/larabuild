@@ -51,6 +51,11 @@
         'action' => "update_user",
         'buttontext' => "Update " . $post->type
         ])
+
+        <span class='row'>
+            <button class="full-width activatepopup" data-popup="add_post_data">Veld aanmaken</button>
+        </span>
+
     </section>
 </section>
 {!! Form::close() !!}

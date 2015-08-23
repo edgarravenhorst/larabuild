@@ -64,6 +64,7 @@ class PostController extends DataController
         $view = View::make('admin.posts.new');
         $view->post_type = $type;
         $view->post = new Post();
+        $view->post->type = $type;
         return $view;
     }
 

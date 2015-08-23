@@ -31,7 +31,10 @@ class Data extends Model
 
     public function get_data($key=false){
         if ($key){
-            return json_decode($this->data, true)[$key]['value'];
+            if (isset(json_decode($this->data, true)[$key]))
+                return json_decode($this->data, true)[$key]['value'];
+            else
+                return "";
         }else
         return json_decode($this->data);
     }
@@ -41,6 +44,9 @@ class Data extends Model
     }
 
     public function get_admin_fields(){
+
+        //var_dump(Config::get('theme.post_types.' . $this->type . '.requiredParams')); die
+
         $data = array_merge(Config::get('theme.post_types.' . $this->type . '.requiredParams'), (array)json_decode($this->data));
         return $data;
     }

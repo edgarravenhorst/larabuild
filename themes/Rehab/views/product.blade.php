@@ -9,6 +9,7 @@
     <li>{{ $post->get_data("detail1") }}</li>
     <li>{{ $post->get_data("detail2") }}</li>
     <li>{{ $post->get_data("detail3") }}</li>
+    <li>{{ $post->get_data("detail4") }}</li>
 </ul>
 
 @stop
