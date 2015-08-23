@@ -7,16 +7,16 @@ use Input;
 use Validator;
 use Redirect;
 
-class PostController extends Controller
+class PostController extends DataController
 {
-
+    public $model = Post::class;
     public $type = "post";
 
     public function get_post($id) {
         $post = Post::find($id);
 
         $view = view::make("Theme::" . $post->type);
-        $view->data = $post;
+        $view->post = $post;
         return $view;
 
     }
@@ -28,7 +28,7 @@ class PostController extends Controller
             //abort(404);
         }else {
             $view = view::make("Theme::" . $post->type);
-            $view->data = $post;
+            $view->post = $post;
             return $view;
         }
     }
@@ -71,6 +71,7 @@ class PostController extends Controller
         $view = View::make('admin.posts.edit');
         $view->title = 'Instellingen';
         $view->post = Post::find($id);
+        $view->custom_fields = $view->post->get_admin_fields();
         return $view;
     }
 
@@ -113,6 +114,7 @@ class PostController extends Controller
             $post->title = $input['title'];
             $post->url = $input['url'];
             $post->content = $input['content'];
+            $post->set_data($input, "data_");
             $post->save();
 
             return Redirect::route('post_type_index', ["type" => $post->type]);

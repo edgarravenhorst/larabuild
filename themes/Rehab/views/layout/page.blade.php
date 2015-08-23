@@ -37,7 +37,12 @@
     <body>
         <header id="main">
             <section class="pagewrap">
-                <span>{!! link_to_route('admin', ' Inloggen', null, array('class'=> '')) !!}</span>
+
+                <span style="margin-right:10px">{!! link_to_route('homepage', "Alles") !!}</span>
+                <span style="margin-right:10px">{!! link_to_route('archive', "Pagina's", array("type" => "page"), array('class'=> '')) !!}</span>
+                <span style="margin-right:10px">{!! link_to_route('archive', "Videos", array("type" => "video"), array('class'=> '')) !!}</span>
+                <span style="margin-right:10px">{!! link_to_route('archive', "Producten", array("type" => "product"), array('class'=> '')) !!}</span>
+                <span style="float:right">{!! link_to_route('admin', 'Inloggen', null, array('class'=> '')) !!}</span>
             </section>
         </header>
         <section class="pagewrap">

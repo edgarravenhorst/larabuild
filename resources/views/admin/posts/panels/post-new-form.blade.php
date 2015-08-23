@@ -30,6 +30,7 @@
 <br />
 {!! Form::hidden('type', $post_type) !!}
 {!! Form::submit('Aanmaken', array('class' =>'btn btn-success'))!!}
-{!! Form::close() !!}
+
 
 @stop
+

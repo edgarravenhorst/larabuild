@@ -24,6 +24,7 @@ body#template-admin {
             background-repeat: no-repeat;
             float:left;
             font-size: 30px;
+            font-family: $font1;
         }
 
         nav{
@@ -96,8 +97,8 @@ body#template-admin {
 }
 
 section.panel {
-    margin-top:0.86%;
-    margin-bottom:0.86%;
+    margin-top:10px;
+    margin-bottom:10px;
     background: #fff;
     border:1px solid #ddd;
     padding:$static-padding;
@@ -119,5 +120,61 @@ section.panel {
             }
         }
         th {padding-bottom:1%}
+    }
+}
+
+section.popup {
+    display: none;
+    position:fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+
+    .inner {
+        width: 400px;
+        height: 75%;
+        @include centerElement("both");
+        background: #fff;
+
+        button.close{
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 6px 10px;
+        }
+    }
+
+    footer#buttons{
+        position: absolute;
+        bottom:0;
+        left:0;
+        height: 45px;
+        width: 100%;
+        background: #eee;
+        border-top:1px solid #ddd;
+        input.btn {
+            position: absolute;
+            right: 0;
+            bottom:0;
+            padding: 15px 20px;
+        }
+    }
+
+    .content {
+        position:absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 28px 0px 48px;
+        padding: 7px 35px;
+        overflow: auto;
+        @include box-sizing();
+    }
+
+    &.active {
+        display: block;
     }
 }

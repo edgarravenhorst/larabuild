@@ -4,9 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DeltaXs Admin Area</title>
 
-        {!! HTML::style('assets/css/admin.css') !!}
-
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        {!! HTML::style('assets/css/admin.css') !!}
+        {!! HTML::script('assets/js/app.js') !!}
+
         @include('tinymce::tpl')
     </head>
 
@@ -38,29 +39,11 @@
 
                 </ul>
             </nav>
-
-            {{--
-            <nav>
-                <ul>
-                    <li>{!! link_to_route('branches_index', 'Branches', []) !!}</li>
-                    <li>{!! link_to_route('account_index', 'Mijn Account', []) !!}</li>
-                    <li>{!! link_to_route('companies_index', 'Mijn Bedrijven', []) !!}</li>
-                    <li>{!! link_to_route('products_index', 'Mijn Producten', []) !!}</li>
-                    <li>{!! link_to_route('services_index', 'Mijn Diensten', []) !!}</li>
-                    @if (Entrust::can('read-mail'))
-                    <li>{!! link_to_route('mail_index', 'Mijn Inbox', []) !!}</li>
-                    @endif
-                </ul>
-            </nav>
-            --}}
         </aside>
 
         <section id="template-content" class='pagecontainer'>
             @yield('page-content')
         </section>
-
-
-        {!! HTML::script('assets/js/deltaxs.js') !!}
 
     </body>
 </html>

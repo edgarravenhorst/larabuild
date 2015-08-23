@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Component {
+class Post extends Data {
 
     protected $table = "posts";
 

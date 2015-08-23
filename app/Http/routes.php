@@ -40,12 +40,13 @@ Route::group(['middleware' => 'App\Http\Middleware\Authenticate'], function () {
 
     //Route::get('admin/posts', array('as'=>'post_index','uses'=>'PostController@get_index'));
     Route::get('admin/posts/{type}', array('as'=>'post_type_index','uses'=>'PostController@get_admin_archive'));
-
     Route::get('admin/post/new/{type}', array('as'=>'new_post', 'uses'=>'PostController@get_new'));
     Route::get('admin/post/{id}/edit', array('as'=>'edit_post', 'uses'=>'PostController@get_edit'));
     Route::post('admin/post/create', array('as'=>'create_post', 'uses'=>'PostController@post_new'));
     Route::post('admin/post/update', array('as'=>'update_post', 'uses'=>'PostController@post_update'));
     Route::delete('admin/post/remove', array('as'=>'remove_post', 'uses'=>'PostController@post_remove'));
+
+    Route::post('admin/post/data/add', array('as'=>'add_data_field', 'uses'=>'PostController@add_field'));
 
 });
 
