@@ -1,0 +1,68 @@
+header#home {
+    position: relative;
+    width:100%;
+    background: $color1;
+    height: 400px;
+    h1, h2{
+        text-align: center;
+        margin:0;
+        color:#fff;
+    }
+    h1{margin-bottom:20px;}
+    .wrapper {
+        @include centerElement('both');
+        width: 90%;
+    }
+}
+
+section#features{
+    @include container();
+
+
+    .feature {
+        @include box-sizing();
+        position: relative;
+        @include gallery(4 of 12);
+        padding:20px;
+        text-align: left;
+        border:2px solid $color1;
+        height: 130px;
+        margin-top:20px;
+        .title {
+            font-size:30px;
+        }
+        .excerpt {
+            margin:10px 0;
+        }
+        .btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+aside#home {
+    @include span(4 of 12);
+}
+
+section#latest-posts{
+    @include span(8 of 12 last);
+    margin:20px 0;
+    .post {
+
+        position: relative;
+        margin: 10px 0;
+        padding: 20px 0 40px 0;
+        border-bottom: 1px solid #eee;
+        .excerpt {
+            margin:10px 0;
+            font-size: 13px;
+        }
+        .btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}

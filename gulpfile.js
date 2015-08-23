@@ -16,3 +16,19 @@ elixir(function(mix) {
         generated_images_path: false
     });
 });
+
+elixir(function(mix) {
+    mix.compass("*", "public/assets/css", {
+        require: ['breakpoint', 'susy'],
+        sass: "themes/Larabuild/sass/",
+        style: "nested",
+        font: "public/fonts",
+        image: "public/images",
+        javascript: "public/js",
+        sourcemap: false,
+        comments: true,
+        relative: true,
+        http_path: false,
+        generated_images_path: false
+    });
+});

@@ -21,7 +21,7 @@ class PostController extends DataController
 
     }
 
-    public function get_single($id) {
+    public function get_single($type="post", $id) {
         $post = Post::find($id);
 
         if (!$post || $post->type != $this->type) {

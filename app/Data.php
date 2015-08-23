@@ -46,8 +46,13 @@ class Data extends Model
     public function get_admin_fields(){
 
         //var_dump(Config::get('theme.post_types.' . $this->type . '.requiredParams')); die
+        if(Config::get('theme.post_types.' . $this->type . '.requiredParams'))
+            $data = array_merge(Config::get('theme.post_types.' . $this->type . '.requiredParams'), (array)json_decode($this->data));
+        else if($this->data)
+            $data = json_decode($this->data);
+        else
+            $data = [];
 
-        $data = array_merge(Config::get('theme.post_types.' . $this->type . '.requiredParams'), (array)json_decode($this->data));
         return $data;
     }
 
