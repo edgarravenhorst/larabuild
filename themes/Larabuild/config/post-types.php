@@ -12,7 +12,7 @@ return array(
     "feature" => [
         "title" => "Features",
         "requiredParams" => [
-            "excerpt" => Data::createField("textarea", "Samenvatting", "Een korte omschrijving")
+            "excerpt" => Data::createField("textarea", "Samenvatting", "Een korte omschrijving"),
             "image" => Data::createField("text", "Afbeelding url", "Een afbeelding van google")
         ]
     ],
