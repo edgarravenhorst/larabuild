@@ -2,7 +2,12 @@
 
 @section("content")
 <section class="pagewrap">
-    <h1>{{ $post->title }}</h1>
-    <p>{!! $post->content !!}</p>
+    <section id="page-content">
+
+        <h1>{{ $post->title }}</h1>
+        <h2>{{ $post->get_data("subtitle") }}</h2>
+        <p>{!! $post->content !!}</p>
+
+    </section>
 </section>
 @stop

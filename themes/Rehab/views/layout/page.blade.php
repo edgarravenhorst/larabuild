@@ -31,7 +31,7 @@
     <body>
         <header id="main">
             <section class="pagewrap">
-                <img src="{{asset("/assets/images/logo.png")}}" width="250">
+                <a href="/"><img src="{{asset("/assets/images/logo.png")}}" width="250"></a>
                 @if(Auth::user())
                 <span style="float:right; margin-right:10px; ">{!! link_to_route('admin', 'Inloggen', null, array('class'=> '')) !!}</span>
                 @endif

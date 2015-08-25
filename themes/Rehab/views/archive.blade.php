@@ -1,21 +1,24 @@
 @extends('layout.page')
 
 @section("content")
-
 <section class="pagewrap">
-<h1>Archief</h1>
-<hr>
-@foreach ($posts as $post)
+    <section id="page-content">
 
-@if($post->get_data("image"))
-<img src="{{ $post->get_data('image') }}" width="120" style="float:left; margin:10px"/>
-@endif
+        <h1>Archief</h1>
+        <hr>
+        @foreach ($posts as $post)
 
-<h3><a href="/{{$post->type}}/{{$post->id}}" class="">{{$post->title}}</a></h3>
-{{ substr(strip_tags($post->content), 0, 300) }}...<br /><br />
-<a href="/{{$post->type}}/{{$post->id}}" class="btn" style="float:right">Bekijk</a>
-<hr>
+        @if($post->get_data("image"))
+        <img src="{{ $post->get_data('image') }}" width="120" style="float:left; margin:10px"/>
+        @endif
 
-@endforeach
+        <h3><a href="/{{$post->type}}/{{$post->id}}" class="">{{$post->title}}</a></h3>
+        {{ substr(strip_tags($post->content), 0, 300) }}...<br /><br />
+        <a href="/{{$post->type}}/{{$post->id}}" class="btn" style="float:right">Bekijk</a>
+        <hr>
+
+        @endforeach
+
+    </section>
 </section>
 @stop
