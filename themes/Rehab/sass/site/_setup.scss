@@ -1,0 +1,100 @@
+header#main {
+    background-color:$color1;
+    color:#fff;
+    a{color:#fff;}
+
+    font-size:20px;
+    font-weight: 700;
+    background-image:url(../images/bg_red.jpg);
+    background-size:100%;
+    background-position: 50%;
+    span{
+        margin-top:15px;
+        margin-right: 20px !important;
+    }
+}
+
+header#home {
+    position: relative;
+    width:100%;
+    background: $color1;
+    height: 400px;
+    background-image:url(../images/bg_red.jpg);
+    background-size:350%;
+    background-position: 50% 80%;
+    h1, h2{
+        text-align: center;
+        margin:0;
+        color:#fff;
+        font-size:40px;
+    }
+    h1{margin-bottom:20px; font-size:75px; font-weight: bold;}
+    .wrapper {
+        @include centerElement('both');
+        width: 90%;
+    }
+}
+
+section#features{
+    @include container();
+
+
+    .feature {
+        @include box-sizing();
+        position: relative;
+        @include gallery(4 of 12);
+        padding:20px;
+        text-align: left;
+        border:2px solid $color1;
+        height: 130px;
+        margin-top:20px;
+        .title {
+            font-size:30px;
+        }
+        .excerpt {
+            margin:10px 0;
+        }
+        .btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+aside#home {
+    @include span(0 of 12);
+}
+
+section#latest-posts{
+    @include span(12 of 12 last);
+    margin:20px 0;
+    .post {
+
+        position: relative;
+        margin: 10px 0;
+        padding: 20px 0 40px 0;
+        border-bottom: 1px solid #eee;
+        .excerpt {
+            margin:10px 0;
+            font-size: 13px;
+        }
+        .btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+section.post.shortcode {
+    width: 75%;
+    background: #eee;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    padding:20px;
+    margin:10px 0;
+    .title {
+        font-size:18px;
+    }
+}

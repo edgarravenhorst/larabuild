@@ -8,16 +8,12 @@ return array(
 
     "admin_menu" => [
         [
-            "title" => "Pages",
+            "title" => "Pagina's",
             "type" => "page"
         ],
         [
-            "title" => "Videos",
-            "type" => "video"
-        ],
-        [
-            "title" => "Products",
-            "type" => "product"
+            "title" => "Vacatures",
+            "type" => "jobs"
         ],
     ],
 

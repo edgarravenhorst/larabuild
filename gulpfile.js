@@ -18,7 +18,7 @@ elixir(function(mix) {
 
     mix.compass("*", "public/assets/css", {
         require: ['breakpoint', 'susy'],
-        sass: "themes/Larabuild/sass/",
+        sass: "themes/Rehab/sass/",
         style: "nested",
         font: "public/fonts",
         image: "public/images",

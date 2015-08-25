@@ -23,7 +23,7 @@ class PostController extends DataController
 
     }
 
-    public function get_single($type="post", $id) {
+   /* public function get_single($type="post", $id) {
         $post = Post::find($id);
 
         if (!$post || $post->type != $this->type) {
@@ -33,7 +33,7 @@ class PostController extends DataController
             $view->post = $post;
             return $view;
         }
-    }
+    }*/
 
     public function get_archive($type=false) {
         if ($type)
