@@ -1,6 +1,8 @@
 @extends('layout.page')
 
 @section("content")
+
+<section class="pagewrap">
 <h1>Archief</h1>
 <hr>
 @foreach ($posts as $post)
@@ -15,4 +17,5 @@
 <hr>
 
 @endforeach
+</section>
 @stop

@@ -1,0 +1,11 @@
+@include breakpoint($screen-size-tablet){
+
+    @for $i from 2 to 12 {
+        .cols-#{$i} {
+            @include span($i of 12 2/1 before);
+            &:first-child {
+                @include first;
+            }
+        }
+    }
+}

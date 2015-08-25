@@ -11,6 +11,8 @@ return array(
     ],
     "jobs" => [
         "title" => "Vacatures",
-        "requiredParams" => []
+        "requiredParams" => [
+            "subtitle" => Data::createField("text", "Subtitel", "Hier de subtitel")
+        ]
     ],
 );

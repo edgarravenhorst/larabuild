@@ -1,0 +1,15 @@
+@include breakpoint($screen-size-desktop){
+
+
+
+
+    @for $i from 2 to 12 {
+        .cols-#{$i} {
+            @include span($i of 12 2/1 before);
+            &:first-child {
+                @include first;
+            }
+        }
+    }
+
+}

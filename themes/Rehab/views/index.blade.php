@@ -9,25 +9,36 @@
     </span>
 </header>
 
-<section id="features">
-    @foreach ($features as $feature)
-    <div class="feature">
-        <h3 class="title"><a href="/{{$feature->type}}/{{$feature->id}}">{{$feature->title}}</a></h3>
-        <div class="excerpt">{{ substr(strip_tags($feature->content), 0, 60) }}...</div>
-        <a href="/{{$feature->type}}/{{$feature->id}}" class="btn">Bekijk</a>
-    </div>
-    @endforeach
+<section class="pagewrap">
+    <section id="latest-posts" >
+        <section class="cols-6">
+            <h2>Laatst toegevoegd</h2>
+            @foreach ($posts as $post)
+            @if($post->type == "page")
+                <div class="post">
+                    <h2 class="title"><a href="{{url($post->url)}}">{{$post->title}}</a></h2>
+                    <h3 class="subtitle">{{$post->get_data("subtitle")}}</h3>
+                    <div class="excerpt">{{ substr(strip_tags($post->content), 0, 150) }}...</div>
+                    <a href="{{url($post->url)}}" class="btn">Bekijk</a>
+                </div>
+            @endif
+            @endforeach
+        </section>
+
+        <section class="cols-6">
+            <h2>Vacatures</h2>
+            @foreach ($posts as $post)
+            @if($post->type == "jobs")
+            <div class="post">
+
+                <h2 class="title"><a href="{{url($post->url)}}">{{$post->title}}</a></h2>
+                <h3 class="subtitle">{{$post->get_data("subtitle")}}</h3>
+                <div class="excerpt">{{ substr(strip_tags($post->content), 0, 150) }}...</div>
+                <a href="{{url($post->url)}}" class="btn">Bekijk</a>
+            </div>
+            @endif
+            @endforeach
+        </section>
+    </section>
 </section>
-
-<section id="latest-posts">
-
-    @foreach ($posts as $post)
-    <div class="post">
-        <h3 class="title"><a href="/{{$post->type}}/{{$post->id}}">{{$post->title}}</a></h3>
-        <div class="excerpt">{{ substr(strip_tags($post->content), 0, 300) }}...</div>
-        <a href="/{{$post->type}}/{{$post->id}}" class="btn">Bekijk</a>
-    </div>
-    @endforeach
-</section>
-
 @stop
