@@ -395,38 +395,40 @@ section#latest-posts {
   margin: 20px 0; }
   /* line 73, ../../../themes/Rehab/sass/site/_setup.scss */
   section#latest-posts h2 {
+    font-size: 18px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
-    margin-bottom: 0px; }
-  /* line 78, ../../../themes/Rehab/sass/site/_setup.scss */
+    margin-bottom: 0px;
+    color: #aaa; }
+  /* line 80, ../../../themes/Rehab/sass/site/_setup.scss */
   section#latest-posts .post {
     position: relative;
     margin: 10px 0;
     padding: 10px 0 40px 0;
     border-bottom: 1px solid #eee; }
-    /* line 84, ../../../themes/Rehab/sass/site/_setup.scss */
+    /* line 86, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post .excerpt {
       margin: 10px 0;
       font-size: 13px; }
-    /* line 88, ../../../themes/Rehab/sass/site/_setup.scss */
+    /* line 90, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post h2, section#latest-posts .post h3 {
       margin: 9px 0;
       border: 0;
       padding: 0; }
-    /* line 89, ../../../themes/Rehab/sass/site/_setup.scss */
+    /* line 91, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post h2 {
       font-size: 25px;
       font-weight: bold; }
-    /* line 93, ../../../themes/Rehab/sass/site/_setup.scss */
+    /* line 95, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post h3 {
       font-size: 16px; }
-    /* line 96, ../../../themes/Rehab/sass/site/_setup.scss */
+    /* line 98, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post .btn {
       position: absolute;
       right: 0;
       bottom: 0; }
 
-/* line 104, ../../../themes/Rehab/sass/site/_setup.scss */
+/* line 106, ../../../themes/Rehab/sass/site/_setup.scss */
 section.post.shortcode {
   width: 75%;
   background: #eee;
@@ -434,17 +436,17 @@ section.post.shortcode {
   box-sizing: border-box;
   padding: 20px;
   margin: 10px 0; }
-  /* line 111, ../../../themes/Rehab/sass/site/_setup.scss */
+  /* line 113, ../../../themes/Rehab/sass/site/_setup.scss */
   section.post.shortcode .title {
     font-size: 18px; }
 
-/* line 116, ../../../themes/Rehab/sass/site/_setup.scss */
+/* line 118, ../../../themes/Rehab/sass/site/_setup.scss */
 #page-content {
   padding: 30px 0; }
-  /* line 118, ../../../themes/Rehab/sass/site/_setup.scss */
+  /* line 120, ../../../themes/Rehab/sass/site/_setup.scss */
   #page-content h1 {
     margin-bottom: 10px; }
-  /* line 119, ../../../themes/Rehab/sass/site/_setup.scss */
+  /* line 121, ../../../themes/Rehab/sass/site/_setup.scss */
   #page-content h2 {
     margin-top: 10px; }
 
