@@ -12,7 +12,7 @@
 <section id="features">
     @foreach ($features as $feature)
     <div class="feature">
-        <h3 class="title"><a href="/{{$post->type}}/{{$post->id}}">{{$feature->title}}</a></h3>
+        <h3 class="title"><a href="/{{$feature->type}}/{{$feature->id}}">{{$feature->title}}</a></h3>
         <div class="excerpt">{{ substr(strip_tags($feature->content), 0, 60) }}...</div>
         <a href="/{{$feature->type}}/{{$feature->id}}" class="btn">Bekijk</a>
     </div>

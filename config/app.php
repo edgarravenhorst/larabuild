@@ -139,6 +139,7 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Zizaco\Entrust\EntrustServiceProvider::class,
         Ktquez\Tinymce\TinymceServiceProvider::class,
+        Pingpong\Shortcode\ShortcodeServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -198,6 +199,7 @@ return [
         'Form'      => Illuminate\Html\FormFacade::class,
         'HTML'      => Illuminate\Html\HtmlFacade::class,
 
+        'Shortcode'       => Pingpong\Shortcode\ShortcodeFacade::class,
         'Entrust'   => Zizaco\Entrust\EntrustFacade::class
 
     ],

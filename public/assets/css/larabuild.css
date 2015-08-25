@@ -60,23 +60,22 @@ html, body {
       color: #F5C90C; }
   /* line 66, ../../../themes/Larabuild/sass/site/_settings.scss */
   html hr, body hr {
-    margin-top: 20px;
+    margin: 20px 0;
     clear: both;
     height: 1px;
     border: 0;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.5); }
-  /* line 75, ../../../themes/Larabuild/sass/site/_settings.scss */
+    background-color: #eee; }
+  /* line 74, ../../../themes/Larabuild/sass/site/_settings.scss */
   html p, body p {
     line-height: 160%; }
-    /* line 77, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 76, ../../../themes/Larabuild/sass/site/_settings.scss */
     html p a, body p a {
       text-decoration: underline; }
-    /* line 78, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 77, ../../../themes/Larabuild/sass/site/_settings.scss */
     html p a:hover, body p a:hover {
       color: #FFB90D; }
   @media (min-width: 0px) {
-    /* line 82, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 81, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h1, body h1 {
       font-family: "Montserrat", sans-serif;
       color: #FFB90D;
@@ -85,7 +84,7 @@ html, body {
       margin: 25px 0 15px 0;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 83, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 82, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
       color: #F5C90C;
@@ -93,7 +92,7 @@ html, body {
       font-weight: normal;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 84, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 83, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
       color: #FFB90D;
@@ -102,34 +101,34 @@ html, body {
       margin: 20px 0 0 0;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 85, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 84, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h4, body h4 {
       font-family: "Open Sans", sans-serif;
       color: #F5C90C;
       font-size: 16px;
       font-weight: 700;
       line-height: 110%; }
-    /* line 88, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 87, ../../../themes/Larabuild/sass/site/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0;
       letter-spacing: -0.022em; }
-    /* line 90, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 89, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h1:first-child, html h2:first-child, html h3:first-child, body h1:first-child, body h2:first-child, body h3:first-child {
       margin-top: 0; } }
   @media (min-width: 1100px) {
-    /* line 97, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 96, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h1, body h1 {
       font-size: 55px; }
-    /* line 98, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 97, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h2, body h2 {
       font-size: 30px; }
-    /* line 99, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 98, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h3, body h3 {
       font-size: 22px; }
-    /* line 100, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 99, ../../../themes/Larabuild/sass/site/_settings.scss */
     html h4, body h4 {
       font-size: 18px; }
-    /* line 103, ../../../themes/Larabuild/sass/site/_settings.scss */
+    /* line 102, ../../../themes/Larabuild/sass/site/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0; } }
 
@@ -474,3 +473,15 @@ section#latest-posts {
       position: absolute;
       right: 0;
       bottom: 0; }
+
+/* line 70, ../../../themes/Larabuild/sass/site/_setup.scss */
+section.post.shortcode {
+  width: 75%;
+  background: #eee;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px 0; }
+  /* line 77, ../../../themes/Larabuild/sass/site/_setup.scss */
+  section.post.shortcode .title {
+    font-size: 18px; }

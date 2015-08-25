@@ -64,19 +64,18 @@ html, body {
     clear: both;
     height: 1px;
     border: 0;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.5); }
-  /* line 75, ../../../resources/assets/sass/admin/_settings.scss */
+    background-color: #ddd; }
+  /* line 74, ../../../resources/assets/sass/admin/_settings.scss */
   html p, body p {
     line-height: 160%; }
-    /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 76, ../../../resources/assets/sass/admin/_settings.scss */
     html p a, body p a {
       text-decoration: underline; }
-    /* line 78, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
     html p a:hover, body p a:hover {
       color: #51B55E; }
   @media (min-width: 0px) {
-    /* line 82, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 81, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
       font-family: "Montserrat", sans-serif;
       color: #51B55E;
@@ -85,7 +84,7 @@ html, body {
       margin: 25px 0 15px 0;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 83, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 82, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
       color: #AB9346;
@@ -93,7 +92,7 @@ html, body {
       font-weight: normal;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 84, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 83, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
       color: #51B55E;
@@ -102,34 +101,34 @@ html, body {
       margin: 20px 0 0 0;
       line-height: 100%;
       letter-spacing: -0.055em; }
-    /* line 85, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 84, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
       font-family: "Open Sans", sans-serif;
       color: #AB9346;
       font-size: 16px;
       font-weight: 700;
       line-height: 110%; }
-    /* line 88, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 87, ../../../resources/assets/sass/admin/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0;
       letter-spacing: -0.022em; }
-    /* line 90, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 89, ../../../resources/assets/sass/admin/_settings.scss */
     html h1:first-child, html h2:first-child, html h3:first-child, body h1:first-child, body h2:first-child, body h3:first-child {
       margin-top: 0; } }
   @media (min-width: 1100px) {
-    /* line 97, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 96, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
       font-size: 55px; }
-    /* line 98, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 97, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
       font-size: 30px; }
-    /* line 99, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 98, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
       font-size: 22px; }
-    /* line 100, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 99, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
       font-size: 18px; }
-    /* line 103, ../../../resources/assets/sass/admin/_settings.scss */
+    /* line 102, ../../../resources/assets/sass/admin/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0; } }
 

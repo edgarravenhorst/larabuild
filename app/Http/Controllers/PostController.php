@@ -6,6 +6,8 @@ use App\Post;
 use Input;
 use Validator;
 use Redirect;
+use Shortcode;
+//
 
 class PostController extends DataController
 {
@@ -129,4 +131,15 @@ class PostController extends DataController
         return Redirect::back();
     }
 
+
+    public function postShortcode($attr, $content = null, $name = null) {
+        $post = Post::find($attr['id']);
+        $view = view::make("shortcode.post");
+        $view->post = $post;
+        $view->post->content = Shortcode::compile($view->post->content);
+
+        return $view;
+        return '<img src="'.$src.'">';
+    }
 }
+Shortcode::register('post', 'App\Http\Controllers\PostController@postShortcode');

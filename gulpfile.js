@@ -15,9 +15,7 @@ elixir(function(mix) {
         http_path: false,
         generated_images_path: false
     });
-});
 
-elixir(function(mix) {
     mix.compass("*", "public/assets/css", {
         require: ['breakpoint', 'susy'],
         sass: "themes/Larabuild/sass/",

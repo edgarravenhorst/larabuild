@@ -4,6 +4,7 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 use App\Http\Controllers\PostController as PostBaseController;
 use Illuminate\Support\Facades\View;
 use App\Post;
+use Shortcode;
 
 class PostController extends PostBaseController
 {
@@ -28,8 +29,8 @@ class PostController extends PostBaseController
         if($post->type != $type) die('404 error');
         $view = view::make("Theme::page");
         $view->post = $post;
+        $view->post->content = Shortcode::compile($view->post->content);
         return $view;
-
     }
 
 }

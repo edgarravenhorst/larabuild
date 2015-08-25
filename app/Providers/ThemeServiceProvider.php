@@ -31,6 +31,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         View::addNamespace('Theme', base_path() . '/themes/' . env('THEME') . '/views');
         parent::boot($router);
+
     }
 
     /**
