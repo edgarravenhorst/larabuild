@@ -1,23 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Montserrat:400,700);
 /* line 26, ../../../resources/assets/sass/admin/_settings.scss */
 .color-1 {
-  color: #51B55E; }
+  color: #222; }
 
 /* line 27, ../../../resources/assets/sass/admin/_settings.scss */
 .color-2 {
-  color: #AB9346; }
+  color: #e63b12; }
 
 /* line 28, ../../../resources/assets/sass/admin/_settings.scss */
 .color-3 {
-  color: #45AB89; }
+  color: #fff; }
 
 /* line 29, ../../../resources/assets/sass/admin/_settings.scss */
 .color-4 {
-  color: #779E4F; }
+  color: #fff; }
 
 /* line 30, ../../../resources/assets/sass/admin/_settings.scss */
 .color-5 {
-  color: #B5B051; }
+  color: #fff; }
 
 /* line 32, ../../../resources/assets/sass/admin/_settings.scss */
 .font-1 {
@@ -54,10 +54,10 @@ html, body {
   /* line 58, ../../../resources/assets/sass/admin/_settings.scss */
   html a, body a {
     text-decoration: none;
-    color: #51B55E; }
+    color: #222; }
     /* line 61, ../../../resources/assets/sass/admin/_settings.scss */
     html a:hover, body a:hover {
-      color: #AB9346; }
+      color: #e63b12; }
   /* line 66, ../../../resources/assets/sass/admin/_settings.scss */
   html hr, body hr {
     margin-top: 20px;
@@ -73,12 +73,12 @@ html, body {
       text-decoration: underline; }
     /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
     html p a:hover, body p a:hover {
-      color: #51B55E; }
+      color: #222; }
   @media (min-width: 0px) {
     /* line 81, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
       font-family: "Montserrat", sans-serif;
-      color: #51B55E;
+      color: #222;
       font-size: 45px;
       font-weight: normal;
       margin: 25px 0 15px 0;
@@ -87,7 +87,7 @@ html, body {
     /* line 82, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
-      color: #AB9346;
+      color: #e63b12;
       font-size: 30px;
       font-weight: normal;
       line-height: 100%;
@@ -95,7 +95,7 @@ html, body {
     /* line 83, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
-      color: #51B55E;
+      color: #222;
       font-size: 24px;
       font-weight: normal;
       margin: 20px 0 0 0;
@@ -104,7 +104,7 @@ html, body {
     /* line 84, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
       font-family: "Open Sans", sans-serif;
-      color: #AB9346;
+      color: #e63b12;
       font-size: 16px;
       font-weight: 700;
       line-height: 110%; }

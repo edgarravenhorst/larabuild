@@ -25,6 +25,8 @@ body#template-admin {
             float:left;
             font-size: 30px;
             font-family: $font1;
+            color:$color2;
+            font-weight: 700;
         }
 
         nav{
@@ -33,8 +35,8 @@ body#template-admin {
             ul{ padding:0; list-style: none;}
             li{
                 a{font-family: $font2; color:$color1;}
-                font-size:18px;
-                margin-left:10px;
+                font-size:16px;
+                margin-left:15px;
                 display: inline-block;
             }
 

@@ -1,23 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Montserrat:400,700);
 /* line 26, ../../../resources/assets/sass/admin/_settings.scss */
 .color-1 {
-  color: #51B55E; }
+  color: #222; }
 
 /* line 27, ../../../resources/assets/sass/admin/_settings.scss */
 .color-2 {
-  color: #AB9346; }
+  color: #e63b12; }
 
 /* line 28, ../../../resources/assets/sass/admin/_settings.scss */
 .color-3 {
-  color: #45AB89; }
+  color: #fff; }
 
 /* line 29, ../../../resources/assets/sass/admin/_settings.scss */
 .color-4 {
-  color: #779E4F; }
+  color: #fff; }
 
 /* line 30, ../../../resources/assets/sass/admin/_settings.scss */
 .color-5 {
-  color: #B5B051; }
+  color: #fff; }
 
 /* line 32, ../../../resources/assets/sass/admin/_settings.scss */
 .font-1 {
@@ -54,10 +54,10 @@ html, body {
   /* line 58, ../../../resources/assets/sass/admin/_settings.scss */
   html a, body a {
     text-decoration: none;
-    color: #51B55E; }
+    color: #222; }
     /* line 61, ../../../resources/assets/sass/admin/_settings.scss */
     html a:hover, body a:hover {
-      color: #AB9346; }
+      color: #e63b12; }
   /* line 66, ../../../resources/assets/sass/admin/_settings.scss */
   html hr, body hr {
     margin-top: 20px;
@@ -73,12 +73,12 @@ html, body {
       text-decoration: underline; }
     /* line 77, ../../../resources/assets/sass/admin/_settings.scss */
     html p a:hover, body p a:hover {
-      color: #51B55E; }
+      color: #222; }
   @media (min-width: 0px) {
     /* line 81, ../../../resources/assets/sass/admin/_settings.scss */
     html h1, body h1 {
       font-family: "Montserrat", sans-serif;
-      color: #51B55E;
+      color: #222;
       font-size: 45px;
       font-weight: normal;
       margin: 25px 0 15px 0;
@@ -87,7 +87,7 @@ html, body {
     /* line 82, ../../../resources/assets/sass/admin/_settings.scss */
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
-      color: #AB9346;
+      color: #e63b12;
       font-size: 30px;
       font-weight: normal;
       line-height: 100%;
@@ -95,7 +95,7 @@ html, body {
     /* line 83, ../../../resources/assets/sass/admin/_settings.scss */
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
-      color: #51B55E;
+      color: #222;
       font-size: 24px;
       font-weight: normal;
       margin: 20px 0 0 0;
@@ -104,7 +104,7 @@ html, body {
     /* line 84, ../../../resources/assets/sass/admin/_settings.scss */
     html h4, body h4 {
       font-family: "Open Sans", sans-serif;
-      color: #AB9346;
+      color: #e63b12;
       font-size: 16px;
       font-weight: 700;
       line-height: 110%; }
@@ -142,7 +142,7 @@ html, body {
   box-sizing: border-box;
   padding: 2% 5%;
   margin: auto; }
-  /* line 38, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .pagewrap:after {
     content: "";
     display: table;
@@ -165,16 +165,16 @@ form {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 61, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 61, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form input:-moz-placeholder, form textarea:-moz-placeholder, form select:-moz-placeholder {
       color: #999; }
-    /* line 64, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 64, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form input::-moz-placeholder, form textarea::-moz-placeholder, form select::-moz-placeholder {
       color: #999; }
-    /* line 67, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 67, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form input:-ms-input-placeholder, form textarea:-ms-input-placeholder, form select:-ms-input-placeholder {
       color: #999; }
-    /* line 56, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 56, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder, form select::-webkit-input-placeholder {
       color: #999; }
   /* line 28, ../../../resources/assets/sass/admin/_globals.scss */
@@ -191,20 +191,20 @@ form {
     clear: both;
     vertical-align: middle;
     font-family: "Montserrat", sans-serif;
-    color: #AB9346; }
+    color: #e63b12; }
   /* line 45, ../../../resources/assets/sass/admin/_globals.scss */
   form textarea {
     height: 100px; }
-    /* line 61, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 61, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form textarea:-moz-placeholder {
       color: #999; }
-    /* line 64, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 64, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form textarea::-moz-placeholder {
       color: #999; }
-    /* line 67, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 67, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form textarea:-ms-input-placeholder {
       color: #999; }
-    /* line 56, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    /* line 56, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
     form textarea::-webkit-input-placeholder {
       color: #999; }
   /* line 53, ../../../resources/assets/sass/admin/_globals.scss */
@@ -215,7 +215,7 @@ form {
   /* line 54, ../../../resources/assets/sass/admin/_globals.scss */
   form .error input, form .error select, form .error textarea {
     border-color: #ff0000; }
-  /* line 38, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   form:after {
     content: "";
     display: table;
@@ -224,7 +224,7 @@ form {
 /* line 63, ../../../resources/assets/sass/admin/_globals.scss */
 button, input[type=submit], .btn, .btn-inverse {
   display: inline-block;
-  background: #51B55E;
+  background: #222;
   padding: 9px 18px;
   color: #fff;
   outline: 0;
@@ -241,24 +241,24 @@ button, input[type=submit], .btn, .btn-inverse {
   /* line 82, ../../../resources/assets/sass/admin/_globals.scss */
   button.hover-white:hover, input[type=submit].hover-white:hover, .btn.hover-white:hover, .btn-inverse.hover-white:hover {
     background: #fff;
-    color: #51B55E; }
+    color: #222; }
   /* line 88, ../../../resources/assets/sass/admin/_globals.scss */
   button:hover, input[type=submit]:hover, .btn:hover, .btn-inverse:hover {
-    background: #AB9346;
+    background: #e63b12;
     color: #fff; }
 
 /* line 94, ../../../resources/assets/sass/admin/_globals.scss */
 .btn-inverse, input[type=submit].btn-inverse {
-  background-color: #AB9346;
-  color: #51B55E; }
+  background-color: #e63b12;
+  color: #222; }
   /* line 98, ../../../resources/assets/sass/admin/_globals.scss */
   .btn-inverse:hover, input[type=submit].btn-inverse:hover {
-    background: #51B55E;
+    background: #222;
     color: #fff; }
   /* line 104, ../../../resources/assets/sass/admin/_globals.scss */
   .btn-inverse.hover-white:hover, input[type=submit].btn-inverse.hover-white:hover {
     background: #fff;
-    color: #51B55E; }
+    color: #222; }
 
 /* line 113, ../../../resources/assets/sass/admin/_globals.scss */
 .row {
@@ -269,12 +269,12 @@ button, input[type=submit], .btn, .btn-inverse {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 12, ../../../../../../../var/lib/gems/2.1.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
   .row:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 38, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .row:after {
     content: "";
     display: table;
@@ -480,72 +480,74 @@ body#template-admin header#template {
     background-repeat: no-repeat;
     float: left;
     font-size: 30px;
-    font-family: "Montserrat", sans-serif; }
-  /* line 30, ../../../resources/assets/sass/admin/_setup.scss */
+    font-family: "Montserrat", sans-serif;
+    color: #e63b12;
+    font-weight: 700; }
+  /* line 32, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin header#template nav {
     float: right;
     margin: 12px 20px; }
-    /* line 33, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 35, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin header#template nav ul {
       padding: 0;
       list-style: none; }
-    /* line 34, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 36, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin header#template nav li {
-      font-size: 18px;
-      margin-left: 10px;
+      font-size: 16px;
+      margin-left: 15px;
       display: inline-block; }
-      /* line 35, ../../../resources/assets/sass/admin/_setup.scss */
+      /* line 37, ../../../resources/assets/sass/admin/_setup.scss */
       body#template-admin header#template nav li a {
         font-family: "Open Sans", sans-serif;
-        color: #51B55E; }
-  /* line 38, ../../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+        color: #222; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   body#template-admin header#template:after {
     content: "";
     display: table;
     clear: both; }
-/* line 45, ../../../resources/assets/sass/admin/_setup.scss */
+/* line 47, ../../../resources/assets/sass/admin/_setup.scss */
 body#template-admin aside#template {
   position: absolute;
   display: block;
-  background: #51B55E;
+  background: #222;
   top: 72px;
   left: 0;
   bottom: 0;
   width: 180px;
   overflow: hidden; }
-  /* line 55, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 57, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin aside#template .user-info {
     margin: 20px 20px; }
-    /* line 57, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 59, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin aside#template .user-info h2, body#template-admin aside#template .user-info h5 {
       color: #fff;
       margin: 0; }
-    /* line 58, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 60, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin aside#template .user-info h2 {
       font-size: 20px; }
-    /* line 59, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 61, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin aside#template .user-info h5 {
       opacity: 0.6; }
-  /* line 63, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 65, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin aside#template nav ul {
     padding: 0; }
-    /* line 65, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 67, ../../../resources/assets/sass/admin/_setup.scss */
     body#template-admin aside#template nav ul li {
       display: block;
       font-size: 18px;
       font-family: "Open Sans", sans-serif;
       text-align: right; }
-  /* line 72, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 74, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin aside#template nav a {
     display: block;
     color: #fff;
     font-weight: 700;
     padding: 8px 40px;
     opacity: 0.6; }
-  /* line 79, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 81, ../../../resources/assets/sass/admin/_setup.scss */
   body#template-admin aside#template nav a:hover {
     opacity: 1; }
-/* line 85, ../../../resources/assets/sass/admin/_setup.scss */
+/* line 87, ../../../resources/assets/sass/admin/_setup.scss */
 body#template-admin section#template-content {
   max-width: 100%;
   margin-left: auto;
@@ -559,13 +561,13 @@ body#template-admin section#template-content {
   right: 0;
   overflow: auto;
   padding: 1.75% 1.75%; }
-  /* line 12, ../../../../../../../var/lib/gems/2.1.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
   body#template-admin section#template-content:after {
     content: " ";
     display: block;
     clear: both; }
 
-/* line 99, ../../../resources/assets/sass/admin/_setup.scss */
+/* line 101, ../../../resources/assets/sass/admin/_setup.scss */
 section.panel {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -573,43 +575,43 @@ section.panel {
   border: 1px solid #ddd;
   padding: 40px;
   box-sizing: border-box; }
-  /* line 106, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 108, ../../../resources/assets/sass/admin/_setup.scss */
   section.panel h2 {
     margin: 0;
     margin-bottom: 20px; }
-  /* line 107, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 109, ../../../resources/assets/sass/admin/_setup.scss */
   section.panel h3 {
     margin: 20px 0;
     font-size: 16px; }
-  /* line 108, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 110, ../../../resources/assets/sass/admin/_setup.scss */
   section.panel .content {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, ../../../../../../../var/lib/gems/2.1.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+    /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p645/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
     section.panel .content:after {
       content: " ";
       display: block;
       clear: both; }
-  /* line 109, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 111, ../../../resources/assets/sass/admin/_setup.scss */
   section.panel table.list {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0; }
-    /* line 113, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 115, ../../../resources/assets/sass/admin/_setup.scss */
     section.panel table.list th, section.panel table.list td {
       border-bottom: 1px solid #ddd;
       padding: 2%;
       text-align: left; }
-      /* line 117, ../../../resources/assets/sass/admin/_setup.scss */
+      /* line 119, ../../../resources/assets/sass/admin/_setup.scss */
       section.panel table.list th img, section.panel table.list td img {
         max-width: 100px;
         max-height: 50px; }
-    /* line 122, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 124, ../../../resources/assets/sass/admin/_setup.scss */
     section.panel table.list th {
       padding-bottom: 1%; }
 
-/* line 126, ../../../resources/assets/sass/admin/_setup.scss */
+/* line 128, ../../../resources/assets/sass/admin/_setup.scss */
 section.popup {
   display: none;
   position: fixed;
@@ -618,7 +620,7 @@ section.popup {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.6); }
-  /* line 135, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 137, ../../../resources/assets/sass/admin/_setup.scss */
   section.popup .inner {
     width: 400px;
     height: 75%;
@@ -630,13 +632,13 @@ section.popup {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background: #fff; }
-    /* line 141, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 143, ../../../resources/assets/sass/admin/_setup.scss */
     section.popup .inner button.close {
       position: absolute;
       right: 0px;
       top: 0px;
       padding: 6px 10px; }
-  /* line 149, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 151, ../../../resources/assets/sass/admin/_setup.scss */
   section.popup footer#buttons {
     position: absolute;
     bottom: 0;
@@ -645,13 +647,13 @@ section.popup {
     width: 100%;
     background: #eee;
     border-top: 1px solid #ddd; }
-    /* line 157, ../../../resources/assets/sass/admin/_setup.scss */
+    /* line 159, ../../../resources/assets/sass/admin/_setup.scss */
     section.popup footer#buttons input.btn {
       position: absolute;
       right: 0;
       bottom: 0;
       padding: 15px 20px; }
-  /* line 165, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 167, ../../../resources/assets/sass/admin/_setup.scss */
   section.popup .content {
     position: absolute;
     top: 0;
@@ -664,6 +666,6 @@ section.popup {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  /* line 177, ../../../resources/assets/sass/admin/_setup.scss */
+  /* line 179, ../../../resources/assets/sass/admin/_setup.scss */
   section.popup.active {
     display: block; }
