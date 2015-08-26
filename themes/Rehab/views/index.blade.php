@@ -14,7 +14,7 @@
         <section class="cols-6">
             <h2>Laatst toegevoegd</h2>
             @foreach ($posts as $post)
-            @if($post->type == "page")
+            @if($post->type != "jobs")
                 <div class="post">
                     <h2 class="title"><a href="{{url($post->url)}}">{{$post->title}}</a></h2>
                     <h3 class="subtitle">{{$post->get_data("subtitle")}}</h3>

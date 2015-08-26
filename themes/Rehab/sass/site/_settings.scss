@@ -44,7 +44,7 @@ $screen-size-bigscreen: 1600px;
 html, body {
     background-color: $body-color;
     font-family: $font2;
-    font-size: 14px;
+    font-size: 15px;
     color: $text-color;
     //line-height: 160%;
     margin: 0;
@@ -78,10 +78,10 @@ html, body {
     }
 
     @include breakpoint(0px){
-        h1 {font-family:$font1; color: $color1; font-size:45px; font-weight:normal; margin:35px 0 25px 0; line-height: 100%; letter-spacing: -0.055em}
-        h2 {font-family:$font1; color: $color2; font-size:30px; font-weight:normal; margin:25px 0 15px 0; line-height: 110%;  letter-spacing: -0.055em}
-        h3 {font-family:$font1; color: $color2; font-size:24px; font-weight:normal; margin:25px 0 15px 0; line-height: 140%;  letter-spacing: -0.055em}
-        h4 {font-family:$font2; color: $color2; font-size:16px; font-weight:700; line-height: 110%;}
+        h1 {font-family:$font1; color: $color1; font-size:30px; font-weight:normal; margin:35px 0 25px 0; line-height: 100%; letter-spacing: -0.055em}
+        h2 {font-family:$font1; color: $color2; font-size:20px; font-weight:normal; margin:25px 0 15px 0; line-height: 110%;  letter-spacing: -0.055em}
+        h3 {font-family:$font1; color: $color2; font-size:18px; font-weight:normal; margin:25px 0 15px 0; line-height: 140%;  letter-spacing: -0.055em}
+        h4 {font-family:$font2; color: $color2; font-size:14px; font-weight:700; line-height: 110%;}
         h5 {}
         h6 {}
         p  {margin:10px 0 20px 0;  letter-spacing: -0.022em}
@@ -94,9 +94,9 @@ html, body {
 
     @include breakpoint(1100px){
         h1 {font-size:55px;}
-        h2 {font-size:30px;}
-        h3 {font-size:22px;}
-        h4 {font-size:18px;}
+        h2 {font-size:25px;}
+        h3 {font-size:20px;}
+        h4 {font-size:16px;}
         h5 {}
         h6 {}
         p  {margin:10px 0 20px 0;}

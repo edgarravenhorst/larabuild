@@ -9,6 +9,12 @@ return array(
             "excerpt" => Data::createField("textarea", "Samenvatting", "Een korte omschrijving")
         ]
     ],
+    "dienst" => [
+        "title" => "Diensten",
+        "requiredParams" => [
+            "subtitle" => Data::createField("text", "Subtitel", "Hier de subtitel")
+        ]
+    ],
     "jobs" => [
         "title" => "Vacatures",
         "requiredParams" => [

@@ -43,7 +43,7 @@
 html, body {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
   margin: 0;
   padding: 0; }
@@ -79,7 +79,7 @@ html, body {
     html h1, body h1 {
       font-family: "Montserrat", sans-serif;
       color: #e63b12;
-      font-size: 45px;
+      font-size: 30px;
       font-weight: normal;
       margin: 35px 0 25px 0;
       line-height: 100%;
@@ -88,7 +88,7 @@ html, body {
     html h2, body h2 {
       font-family: "Montserrat", sans-serif;
       color: #555;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: normal;
       margin: 25px 0 15px 0;
       line-height: 110%;
@@ -97,7 +97,7 @@ html, body {
     html h3, body h3 {
       font-family: "Montserrat", sans-serif;
       color: #555;
-      font-size: 24px;
+      font-size: 18px;
       font-weight: normal;
       margin: 25px 0 15px 0;
       line-height: 140%;
@@ -106,7 +106,7 @@ html, body {
     html h4, body h4 {
       font-family: "Open Sans", sans-serif;
       color: #555;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
       line-height: 110%; }
     /* line 87, ../../../themes/Rehab/sass/site/_settings.scss */
@@ -122,13 +122,13 @@ html, body {
       font-size: 55px; }
     /* line 97, ../../../themes/Rehab/sass/site/_settings.scss */
     html h2, body h2 {
-      font-size: 30px; }
+      font-size: 25px; }
     /* line 98, ../../../themes/Rehab/sass/site/_settings.scss */
     html h3, body h3 {
-      font-size: 22px; }
+      font-size: 20px; }
     /* line 99, ../../../themes/Rehab/sass/site/_settings.scss */
     html h4, body h4 {
-      font-size: 18px; }
+      font-size: 16px; }
     /* line 102, ../../../themes/Rehab/sass/site/_settings.scss */
     html p, body p {
       margin: 10px 0 20px 0; } }
@@ -409,7 +409,7 @@ section#latest-posts {
     /* line 86, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post .excerpt {
       margin: 10px 0;
-      font-size: 13px; }
+      font-size: 14px; }
     /* line 90, ../../../themes/Rehab/sass/site/_setup.scss */
     section#latest-posts .post h2, section#latest-posts .post h3 {
       margin: 9px 0;
