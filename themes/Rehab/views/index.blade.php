@@ -12,9 +12,9 @@
 <section class="pagewrap">
     <section id="latest-posts" >
         <section class="cols-6">
-            <h2>Laatst toegevoegd</h2>
+            <h2>Diensten</h2>
             @foreach ($posts as $post)
-            @if($post->type != "jobs")
+            @if($post->type == "dienst")
                 <div class="post">
                     <h2 class="title"><a href="{{url($post->url)}}">{{$post->title}}</a></h2>
                     <h3 class="subtitle">{{$post->get_data("subtitle")}}</h3>
