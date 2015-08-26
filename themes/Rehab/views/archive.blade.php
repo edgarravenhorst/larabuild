@@ -2,10 +2,10 @@
 
 @section("content")
 <section class="pagewrap">
-    <section id="page-content">
-
+    <header id="page-header">
         <h1>Archief</h1>
-        <hr>
+    </header>
+    <section id="page-content">
         @foreach ($posts as $post)
 
         @if($post->get_data("image"))
@@ -20,5 +20,18 @@
         @endforeach
 
     </section>
+    <aside id="page-sidebar">
+        <h3>Waar wij werken:</h3>
+        <p>
+            Rigtersbleek Zandvoort 10 ruimte 2.21<br />
+            7521 BE Enschede<br />
+            Nederland<br />
+        </p>
+        <h3>Hoe je ons bereiken kan:</h3>
+        <p>
+            email: info@code.rehab<br />
+            T. 053 - 711 34 91<br />
+        </p>
+    </aside>
 </section>
 @stop

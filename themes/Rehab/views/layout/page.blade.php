@@ -10,7 +10,6 @@
                 @if(Auth::user())
                 <span style="float:right; margin-right:10px; ">{!! link_to_route('admin', 'Inloggen', null, array('class'=> '')) !!}</span>
                 @endif
-                <span style="float:right; margin-right:10px;" >{!! link_to('/contact', 'Contact') !!}</span>
                 <span style="float:right; margin-right:10px;" >{!! link_to_route('archive', 'Jobs', array("type" => "jobs"), array('class'=> '')) !!}</span>
                 <span style="margin-right:10px; float:right">{!! link_to_route('homepage', "Home") !!}</span>
 

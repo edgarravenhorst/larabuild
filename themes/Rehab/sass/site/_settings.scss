@@ -85,7 +85,7 @@ html, body {
         h5 {}
         h6 {}
         p  {margin:10px 0 20px 0;  letter-spacing: -0.022em}
-        h1,h2,h3 {
+        h1,h2,h3, p {
             &:first-child {
                 margin-top:0;
             }

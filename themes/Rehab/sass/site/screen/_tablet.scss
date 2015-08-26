@@ -10,6 +10,9 @@
     }
 
     #page-content {
-        @include span(8 of 12 after);
+        @include span(8 of 12 2/1);
+    }
+    #page-sidebar {
+        @include span(4 of 12  2/1 last);
     }
 }
