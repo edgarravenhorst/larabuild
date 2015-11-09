@@ -11,7 +11,7 @@
     <body>
         <div class="cols-4">
             <h2>Inloggen</h2>
-            <p>Gebruik onderstaand formulier om in te loggen bij DeltaXs. Indien u nog geen account heeft kunt u zich {!! link_to_route('user_registration', 'hier registreren', null, array('class'=> '')) !!}</p>
+            <p>Gebruik onderstaand formulier om in te loggen bij DeltaXs.</p>
 
             {!! Form::open(array('url' => '/login','method' => 'post')) !!}
             @if ($errors->any())
@@ -24,7 +24,7 @@
             {!! Form::password('password', array('placeholder' => 'Password', 'class'=>'form-control'))!!}
             {!! Form::submit('Login', array('class' =>'btn btn-primary btn-block'))!!}
 
-            <span style="margin-left:10px;">{!! link_to_route('user_registration', ' of Registreren', null, array('class'=> '')) !!}</span>
+            <!--<span style="margin-left:10px;">{!! link_to_route('user_registration', ' of Registreren', null, array('class'=> '')) !!}</span>-->
             {!! Form::close() !!}
 
         </div>

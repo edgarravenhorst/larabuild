@@ -3,7 +3,7 @@
     width:100%;
     @include pie-clearfix();
     @include box-sizing();
-    padding: 2% 5%;
+    padding: 20px 5%;
     margin:auto;
 }
 
@@ -111,4 +111,11 @@ button, input[type=submit], .btn, .btn-inverse{
     @include container();
     @include pie-clearfix();
     @include box-sizing();
+}
+
+ul{
+    line-height: 160%;
+    li{
+        margin-bottom:5px;
+    }
 }

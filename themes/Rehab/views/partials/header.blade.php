@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <title>Code.Rehab</title>
 <meta name="description" content="Code.Rehab - Its time for an intervention!">
-<meta name="author" content="Code.Rehab">
+<meta name="author" content="Code.Rehab | cleaning the web">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 
 <link rel="icon" type="image/png" href='{{asset("/assets/images/favicon.png")}}'>

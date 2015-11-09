@@ -4,18 +4,29 @@
         text-align: center;
         padding: 20px;
         span {display: none;}
+        &.home{
+            height:auto;
+        }
     }
 
     header#home {
+        display: none;
+        margin-top:-230px;
         height: 210px;
         h1{
             font-size:  55px;
         }
         h2{font-size: 25px;}
+
     }
 
     .cols-6 {
         margin: 30px 0 50px 0;
     }
+
+    section#latest-posts {
+        margin:0;
+    }
+
 
 }

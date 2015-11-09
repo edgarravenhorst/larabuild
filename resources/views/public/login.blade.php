@@ -6,7 +6,7 @@
 <section id="login" class='panel'>
     <header>
         <h2>Inloggen</h2>
-        <p>Gebruik onderstaand formulier om in te loggen. Indien u nog geen account heeft kunt u zich<br /> {!! link_to_route('user_registration', 'hier registreren', null, array('class'=> '')) !!}</p>
+        <p>Gebruik onderstaand formulier om in te loggen.</p>
     </header>
 
     <section class='content'>

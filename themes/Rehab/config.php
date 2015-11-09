@@ -19,6 +19,10 @@ return array(
             "title" => "Diensten",
             "type" => "dienst"
         ],
+        [
+            "title" => "Projecten",
+            "type" => "project"
+        ],
     ],
 
     "post_types" => include(__DIR__ . "/config/post-types.php")
