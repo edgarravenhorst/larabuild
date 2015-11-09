@@ -3,7 +3,7 @@
 @section("content")
 <section class="pagewrap">
     <header id="page-header">
-        <h1>Archief</h1>
+        <h1>Vacatures</h1>
     </header>
     <section id="page-content">
         @foreach ($posts as $post)
