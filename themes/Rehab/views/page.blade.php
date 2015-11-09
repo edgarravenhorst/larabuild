@@ -12,7 +12,7 @@
     </section>
 
     <aside id="page-sidebar">
-        <h3>Interesse?</h3>
+        <h3>Meer weten?</h3>
         Bel 053-711 34 91<br />
         of mail info@code.rehab
     </aside>
