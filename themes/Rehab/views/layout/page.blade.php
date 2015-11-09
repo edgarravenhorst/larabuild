@@ -32,7 +32,7 @@
                     </p>
                 </div>
                 <div class="cols-4">
-                    <h3>Hoe je ons bereiken kan:</h3>
+                    <h3>Zo bereik je ons:</h3>
                     <p>
                         E. info@code.rehab<br />
                         T. 053 - 711 34 91<br />
