@@ -4,6 +4,7 @@
 <meta name="description" content="Code.Rehab - Its time for an intervention!">
 <meta name="author" content="Code.Rehab | cleaning the web">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="google-site-verification" content="eEFcpX0zThI4gO3jbjf53aV0lXVt2seSzFuh-gMNMtQ" />
 
 <link rel="icon" type="image/png" href='{{asset("/assets/images/favicon.png")}}'>
 <link rel="image_src" href='{{asset("/assets/images/logo.png")}}'>
@@ -13,7 +14,7 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<meta name="google-site-verification" content="eEFcpX0zThI4gO3jbjf53aV0lXVt2seSzFuh-gMNMtQ" />
+
 
 <script async="" src="//www.google-analytics.com/analytics.js"></script><script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
