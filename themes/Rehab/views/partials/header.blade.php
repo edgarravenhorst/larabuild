@@ -13,6 +13,8 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
+<meta name="google-site-verification" content="eEFcpX0zThI4gO3jbjf53aV0lXVt2seSzFuh-gMNMtQ" />
+
 <script async="" src="//www.google-analytics.com/analytics.js"></script><script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
