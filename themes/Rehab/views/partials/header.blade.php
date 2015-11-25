@@ -1,10 +1,11 @@
 
 <meta charset="utf-8">
-<title>Code.Rehab</title>
 <meta name="description" content="Code.Rehab - Its time for an intervention!">
 <meta name="author" content="Code.Rehab | cleaning the web">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 <meta name="google-site-verification" content="eEFcpX0zThI4gO3jbjf53aV0lXVt2seSzFuh-gMNMtQ" />
+
+<title>Code.Rehab</title>
 
 <link rel="icon" type="image/png" href='{{asset("/assets/images/favicon.png")}}'>
 <link rel="image_src" href='{{asset("/assets/images/logo.png")}}'>
