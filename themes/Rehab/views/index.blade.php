@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
     @include ("partials.header")
 
     <body>
